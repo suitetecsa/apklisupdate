@@ -90,7 +90,7 @@ dependencies {
 publishing {
     publications {
         register<MavenPublication>("full") {
-            groupId = "com.github.Z17-CU"
+            groupId = "com.github.suitetecsa"
             artifactId = "apklisupdate"
             version = "1.4"
 
@@ -99,7 +99,7 @@ publishing {
             }
         }
         register<MavenPublication>("non-viewRelease") {
-            groupId = "com.github.Z17-CU"
+            groupId = "com.github.suitetecsa"
             artifactId = "apklisupdate"
             version = "1.4-non-view"
 
