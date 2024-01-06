@@ -100,8 +100,8 @@ publishing {
         }
         register<MavenPublication>("non-viewRelease") {
             groupId = "com.github.suitetecsa"
-            artifactId = "apklisupdate"
-            version = "1.4-non-view"
+            artifactId = "apklisupdate-non-view"
+            version = "1.4"
 
             afterEvaluate {
                 from(components["non-viewRelease"])
